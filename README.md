@@ -1,23 +1,23 @@
-# 🤖 Telegram AI Chatbot with n8n
+🤖 Telegram AI Chatbot with n8n
 
 An AI-powered Telegram chatbot built using **n8n**, an LLM, and conversational memory to create an interactive chat experience.
 
 This project is one of my first practical experiments in AI Automation, exploring how workflow automation, Large Language Models (LLMs), and memory can work together to build conversational AI applications.
 
-## 📌 Project Overview
+📌 Project Overview
 
 The workflow connects Telegram with an AI model to receive user messages, process them, maintain conversational context, and generate responses automatically.
 
 It demonstrates the fundamentals of building AI-powered automation workflows using a visual automation platform.
 
-## ⚙️ Technologies Used
+⚙️ Technologies Used
 
 - **n8n** – Workflow automation and orchestration.
 - **Telegram Bot API** – Receiving and sending messages.
 - **LLM** – Understanding user messages and generating responses.
 - **Conversational Memory** – Maintaining context across messages.
 
-## 🔄 How It Works
+ 🔄 How It Works
 
 The workflow follows these steps:
 
@@ -26,7 +26,7 @@ The workflow follows these steps:
 3. **Memory:** Maintains conversational context to support follow-up questions.
 4. **Telegram Response:** Sends the generated response back to the user.
 
-## 🏗️ Workflow Architecture
+🏗️ Workflow Architecture
 
 ```text
 Telegram User
@@ -63,7 +63,7 @@ Getting Started
 - A Telegram Bot created using BotFather.
 - API credentials for your chosen LLM provider.
 
-### Setup Instructions
+ Setup Instructions
 
 1. Clone this repository:
 
@@ -81,13 +81,13 @@ git clone https://github.com/YOUR_USERNAME/n8n-telegram-ai-chatbot.git
 
 6. Activate the workflow and start chatting with your Telegram bot.
 
-## 🔐 Security
+ 🔐 Security
 
 - Never upload API keys, bot tokens, or private credentials.
 - Use n8n credentials management for sensitive information.
 - Keep your `.env` files and private configuration out of version control.
 
-## 🎯 What I Learned
+🎯 What I Learned
 
 Through this project, I explored:
 
